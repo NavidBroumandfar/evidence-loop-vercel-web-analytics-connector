@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "query": {
+    "projectId": "prj_example123",
+    "since": "2025-01-01T00:00:00Z",
+    "until": "2025-01-02T00:00:00Z"
+  },
+  "data": {
+    "pageviews": 1234,
+    "visitors": 567
+  }
+}

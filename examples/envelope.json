@@ -1,0 +1,36 @@
+{
+  "collected_at": "2025-01-02T12:00:00Z",
+  "completeness": "complete",
+  "freshness": "fresh",
+  "grain": "site-level",
+  "limitations": "Vercel Web Analytics visits/count endpoint. Metrics represent aggregated counts for the specified operator-bound project, site, and time window.",
+  "lineage": [
+    {
+      "method": "sha256",
+      "reference": "provider_response_sha256",
+      "stage": "provider-response"
+    }
+  ],
+  "measures": {
+    "pageviews": {
+      "unit": "count",
+      "value": 1234
+    },
+    "visitors": {
+      "unit": "count",
+      "value": 567
+    }
+  },
+  "observation_window": {
+    "end": "2025-01-02T00:00:00Z",
+    "start": "2025-01-01T00:00:00Z"
+  },
+  "provider": "vercel-web-analytics",
+  "provider_response_sha256": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+  "schema_version": "1",
+  "scope_ref": "production",
+  "site_id": "example-site",
+  "site_url": "https://example.com",
+  "source": "evidence-loop-vercel-web-analytics",
+  "uncertainty": "low"
+}

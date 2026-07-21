@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidence-loop-vercel-web-analytics-connector"
+version = "0.1.0"
+description = "Evidence Loop connector for Vercel Web Analytics visits/count endpoint"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "Navid Broumandfar"}
+]
+keywords = ["vercel", "analytics", "connector", "evidence-loop"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/NavidBroumandfar/evidence-loop-vercel-web-analytics-connector"
+Documentation = "https://github.com/NavidBroumandfar/evidence-loop-vercel-web-analytics-connector/tree/main/docs"
+Issues = "https://github.com/NavidBroumandfar/evidence-loop-vercel-web-analytics-connector/issues"
+Source = "https://github.com/NavidBroumandfar/evidence-loop-vercel-web-analytics-connector"
+
+[project.scripts]
+evidence-loop-vercel-web-analytics-connector = "evidence_loop_vercel_web_analytics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
