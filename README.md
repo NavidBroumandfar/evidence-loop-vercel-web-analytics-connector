@@ -1,8 +1,9 @@
 # Evidence Loop Vercel Web Analytics Connector
 
-A `0.1.0` release candidate for the Vercel Web Analytics visits/count endpoint
+A secure, opt-in connector for the Vercel Web Analytics visits/count endpoint
 that emits Connector Exchange Envelope v1 JSON compatible with the public
-evidence-loop contract. PyPI publication remains separately gated. A bounded
+evidence-loop contract. Version `0.1.0` is available from GitHub Releases;
+PyPI publication remains separately gated. A bounded
 read-only live validation on 2026-07-22 confirmed the current
 provider response shape and the sanitized envelope-to-core round trip. No live
 response body, metric value, credential, project ID, or team ID is committed.
@@ -18,7 +19,7 @@ response body, metric value, credential, project ID, or team ID is committed.
 
 ## Local installation
 
-This repository is the source of truth for the `0.1.0` candidate. Run it
+This repository is the source of truth. Run it
 from a checkout without contacting a package index:
 
 ```bash

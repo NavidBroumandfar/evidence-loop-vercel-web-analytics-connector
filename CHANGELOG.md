@@ -5,13 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 0.1.0 - Unreleased release candidate
+## 0.1.0 - 2026-07-22
 
-This candidate has not been published to PyPI or GitHub.
+Published as a GitHub source release with verified wheel and sdist artifacts.
+PyPI publication remains separately gated.
 
 ### Added
 
-- Initial local release candidate
+- Initial public release
 - Vercel Web Analytics visits/count connector
 - Library API with `collect()` function
 - CLI with `python -m` and console script entry points

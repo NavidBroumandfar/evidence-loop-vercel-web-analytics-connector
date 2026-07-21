@@ -4,7 +4,7 @@
 
 | Version | Status |
 | ------- | ------ |
-| 0.1.0   | Unreleased release candidate |
+| 0.1.0   | Supported |
 
 ## Security Architecture
 
