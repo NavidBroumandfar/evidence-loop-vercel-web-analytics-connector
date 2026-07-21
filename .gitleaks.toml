@@ -1,0 +1,4 @@
+[allowlist]
+description = "Exact synthetic serialization rejection fixture"
+paths = ['''tests/test_safety\.py''']
+regexes = ['''secret12345678''']
